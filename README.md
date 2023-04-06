@@ -33,7 +33,7 @@ Password : 12345
 
 ## Contributors
 
-<a href="www.linkedin.com/in/shafwatur-rijal-a46b39209" target="_blank">Shafwaturrijal</a>
+<a href="https://www.linkedin.com/in/shafwatur-rijal-a46b39209" target="_blank">Shafwaturrijal</a>
 
 Gunakan Aplikasi dengan bijak, dan selamat belajar
 
