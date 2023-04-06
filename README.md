@@ -23,7 +23,7 @@ https://www.codekop.com/read/source-code-sistem-informasi-perpustakaan-dengan-co
 
 ### Live Demo
 
-- E-Kinerja Dosen : <a href="https://demoekinerjadosen.000webhostapp.com/">https://demoekinerjadosen.000webhostapp.com/</a>
+- E-Kinerja Dosen : <a href="https://demoekinerjadosen.000webhostapp.com/" target="_blank">https://demoekinerjadosen.000webhostapp.com/</a>
 
 ## Penggunaan Login Akses
 
