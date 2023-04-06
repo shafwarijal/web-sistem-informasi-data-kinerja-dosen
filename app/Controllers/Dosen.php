@@ -689,7 +689,7 @@ EOT;
                     'errors' => [
                         'required' => 'All accounts must have {field} provided',
                         'min_length' => 'Minimal 3 huruf',
-                        'is_unique' => 'Masdasdf',
+                        'is_unique' => 'NIDN sudah digunakan',
                     ],
                 ],
                 'nama_dosen' => [
