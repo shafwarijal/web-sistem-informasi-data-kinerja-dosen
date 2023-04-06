@@ -1,0 +1,8 @@
+CRITICAL - 2022-01-03 14:40:18 --> Undefined variable: data
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Penelitian.php(496): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 496, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penelitian->get_penelitian_edit()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penelitian))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}

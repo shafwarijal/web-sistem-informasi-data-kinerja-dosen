@@ -1,0 +1,14 @@
+CRITICAL - 2021-11-22 02:55:25 --> Too few arguments to function App\Controllers\Dosen::get_dosen_edit(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-22 03:07:16 --> Too few arguments to function App\Controllers\Dosen::get_dosen_edit(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}

@@ -1,0 +1,278 @@
+CRITICAL - 2021-11-04 00:51:06 --> Trying to access array offset on value of type null
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Software\\xam...', 140, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-11-04 00:52:11 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('0003106003', NULL)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0003106003', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(168): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-11-04 00:52:14 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('0003106003', NULL)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0003106003', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(168): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-11-04 00:52:20 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('0003106003', NULL)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0003106003', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(168): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-11-04 00:52:54 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('0026026101', NULL)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0026026101', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(168): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-11-04 01:00:24 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('0000000001', NULL)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000001', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(168): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-11-04 01:01:04 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('0000000001', NULL)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000001', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(168): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-11-04 02:33:04 --> Undefined variable: nidn
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 169, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-11-04 02:54:35 --> edit_unique is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('edit_unique')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000001', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(169): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-11-04 03:19:40 --> callback_checknidn is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('callback_checkn...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000001', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(168): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-11-04 03:49:38 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 03:49:58 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 03:50:04 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 03:50:32 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 03:51:08 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 03:51:11 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 03:51:15 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 03:51:54 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 03:55:18 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 03:56:31 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 03:59:36 -->  is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000001', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(170): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-11-04 03:59:54 -->  is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000001', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(170): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-11-04 04:00:50 -->  is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000001', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(170): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-11-04 04:01:01 -->  is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000001', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(170): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-11-04 04:02:16 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 04:02:56 --> Undefined variable: nidn
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 171, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-11-04 04:10:57 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 04:11:53 --> Too few arguments to function App\Controllers\Dosen::get_dosen_edit(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 05:02:04 --> Call to undefined method App\Models\Dosen_model::getVar
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(169): CodeIgniter\Model->__call('getVar', Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-11-04 05:04:47 --> Call to undefined method App\Models\Dosen_model::getNidn
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(169): CodeIgniter\Model->__call('getNidn', Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-11-04 05:11:28 --> Too few arguments to function App\Controllers\Dosen::update_data(), 0 passed in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-04 05:12:09 --> Undefined variable: oldnidn
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 179, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}

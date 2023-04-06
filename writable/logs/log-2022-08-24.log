@@ -1,0 +1,59 @@
+CRITICAL - 2022-08-24 00:53:09 --> Cannot declare class App\Controllers\Dosen, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-24 02:44:21 --> Undefined property: App\Controllers\Akunadmin::$dosen
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Akunadmin.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Software\\xam...', 181, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Akunadmin->get_akunadmin_edit()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunadmin))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2022-08-24 02:44:34 --> Undefined property: App\Controllers\Akunadmin::$dosen
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Akunadmin.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Software\\xam...', 181, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Akunadmin->get_akunadmin_edit()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunadmin))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2022-08-24 02:45:39 --> Invalid file: pages/modals/admin/edit_akunadmin.php
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/modals/ad...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/modals/ad...', Array, true)
+#2 D:\Software\xampp\htdocs\skripsi\app\Controllers\Akunadmin.php(191): view('pages/modals/ad...', Array)
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Akunadmin->get_akunadmin_edit()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunadmin))
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#8 {main}
+CRITICAL - 2022-08-24 02:46:46 --> Invalid file: pages/modals/admin/edit_akunadmin.php
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/modals/ad...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/modals/ad...', Array, true)
+#2 D:\Software\xampp\htdocs\skripsi\app\Controllers\Akunadmin.php(191): view('pages/modals/ad...', Array)
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Akunadmin->get_akunadmin_edit()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunadmin))
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#8 {main}
+CRITICAL - 2022-08-24 02:46:53 --> Invalid file: pages/modals/admin/edit_akunadmin.php
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/modals/ad...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/modals/ad...', Array, true)
+#2 D:\Software\xampp\htdocs\skripsi\app\Controllers\Akunadmin.php(191): view('pages/modals/ad...', Array)
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Akunadmin->get_akunadmin_edit()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunadmin))
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#8 {main}
+CRITICAL - 2022-08-24 02:48:00 --> Invalid file: pages/modals/admin/edit_akuasdadsnadmin.php
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/modals/ad...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/modals/ad...', Array, true)
+#2 D:\Software\xampp\htdocs\skripsi\app\Controllers\Akunadmin.php(191): view('pages/modals/ad...', Array)
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Akunadmin->get_akunadmin_edit()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunadmin))
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#8 {main}

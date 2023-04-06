@@ -1,0 +1,47 @@
+CRITICAL - 2021-12-22 03:56:44 --> Undefined variable: password
+#0 D:\Software\xampp\htdocs\skripsi\app\Views\Pages\Admin\a_dosen\edit_dosen.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 104, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Software\\xam...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/admin/a_d...', Array, true)
+#4 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(214): view('pages/admin/a_d...', Array)
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#10 {main}
+CRITICAL - 2021-12-22 03:57:11 --> Undefined variable: password
+#0 D:\Software\xampp\htdocs\skripsi\app\Views\Pages\Admin\a_dosen\edit_dosen.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 104, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Software\\xam...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/admin/a_d...', Array, true)
+#4 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(214): view('pages/admin/a_d...', Array)
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#10 {main}
+CRITICAL - 2021-12-22 03:57:35 --> Undefined variable: password
+#0 D:\Software\xampp\htdocs\skripsi\app\Views\Pages\Admin\a_dosen\edit_dosen.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 104, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Software\\xam...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/admin/a_d...', Array, true)
+#4 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(214): view('pages/admin/a_d...', Array)
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#10 {main}
+CRITICAL - 2021-12-22 03:59:04 --> password dosen is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('password dosen')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password dosen', '', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(240): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data('0000000001')
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}

@@ -1,0 +1,66 @@
+CRITICAL - 2022-03-13 10:54:32 --> password dosen is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('password dosen')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password dosen', '', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(889): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data_pass('0000000001')
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2022-03-13 10:54:43 --> password dosen is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('password dosen')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password dosen', '', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(889): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data_pass('0000000001')
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2022-03-13 10:55:07 --> password dosen is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('password dosen')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password dosen', '', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(889): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data_pass('0000000001')
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2022-03-13 10:55:09 --> password dosen is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('password dosen')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password dosen', '', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(889): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data_pass('0000000001')
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2022-03-13 10:55:21 --> password dosen is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('password dosen')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password dosen', 'asdasd', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(889): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data_pass('0000000001')
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2022-03-13 10:55:39 --> password dosen is not a valid rule.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('password dosen')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password dosen', 'ertert', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(889): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->update_data_pass('0000000001')
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}

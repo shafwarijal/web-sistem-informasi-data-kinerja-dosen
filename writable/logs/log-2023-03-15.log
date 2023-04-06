@@ -1,0 +1,24 @@
+CRITICAL - 2023-03-15 19:15:25 --> Undefined variable: data
+#0 D:\Software\xampp\htdocs\ekinerja_dosen\app\Controllers\Penelitian.php(373): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 373, Array)
+#1 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\CodeIgniter.php(805): App\Controllers\Penelitian->get_penelitian_edit()
+#2 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\CodeIgniter.php(402): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penelitian))
+#3 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\ekinerja_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2023-03-15 19:15:36 --> Undefined variable: data
+#0 D:\Software\xampp\htdocs\ekinerja_dosen\app\Controllers\Penelitian.php(373): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 373, Array)
+#1 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\CodeIgniter.php(805): App\Controllers\Penelitian->get_penelitian_edit()
+#2 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\CodeIgniter.php(402): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penelitian))
+#3 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\ekinerja_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2023-03-15 19:19:16 --> Invalid argument supplied for foreach()
+#0 D:\Software\xampp\htdocs\ekinerja_dosen\app\Controllers\Penelitian.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Software\\xam...', 299, Array)
+#1 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\CodeIgniter.php(805): App\Controllers\Penelitian->save_data()
+#2 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\CodeIgniter.php(402): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penelitian))
+#3 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\ekinerja_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}

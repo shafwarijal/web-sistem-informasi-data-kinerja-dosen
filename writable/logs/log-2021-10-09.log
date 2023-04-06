@@ -1,0 +1,116 @@
+CRITICAL - 2021-10-09 22:50:25 --> Undefined property: App\Controllers\Auth::$db
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Auth.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Software\\xam...', 38, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->login()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-10-09 22:50:57 --> Undefined property: App\Controllers\Auth::$db
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Auth.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Software\\xam...', 38, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->login()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-10-09 22:52:12 --> syntax error, unexpected '$username' (T_VARIABLE)
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Software\\xam...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-10-09 22:52:30 --> syntax error, unexpected '$username' (T_VARIABLE)
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Software\\xam...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-10-09 22:52:50 --> Undefined property: App\Controllers\Auth::$db
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Auth.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Software\\xam...', 38, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->login()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-10-09 22:56:07 --> Undefined property: App\Controllers\Auth::$db
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Software\\xam...', 39, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->login()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-10-09 22:58:29 -->  route cannot be found while reverse-routing.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(835): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Software\xampp\htdocs\skripsi\app\Controllers\Auth.php(53): redirect('auth')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->login()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#8 {main}
+CRITICAL - 2021-10-09 22:58:34 -->  route cannot be found while reverse-routing.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(835): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Software\xampp\htdocs\skripsi\app\Controllers\Auth.php(53): redirect('auth')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->login()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#8 {main}
+CRITICAL - 2021-10-09 22:59:19 -->  route cannot be found while reverse-routing.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(835): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Software\xampp\htdocs\skripsi\app\Controllers\Auth.php(53): redirect('auth')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->login()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#8 {main}
+CRITICAL - 2021-10-09 23:00:27 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::to(), 0 passed in D:\Software\xampp\htdocs\skripsi\app\Controllers\Auth.php on line 53 and at least 1 expected
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Auth.php(53): CodeIgniter\HTTP\RedirectResponse->to()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->login()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-10-09 23:00:58 --> Undefined variable: user
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Auth.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 55, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->login()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-10-09 23:01:17 --> Undefined variable: user
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Auth.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 55, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->login()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-10-09 23:19:51 --> Undefined property: App\Controllers\Auth::$session
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Auth.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Software\\xam...', 49, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->login()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}

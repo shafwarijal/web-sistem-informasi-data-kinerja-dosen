@@ -1,0 +1,96 @@
+CRITICAL - 2022-01-18 01:51:13 --> Undefined index: status
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Jurnal.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Software\\xam...', 61, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jurnal->get_jurnal()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2022-01-18 01:51:15 --> Undefined index: status
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Jurnal.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Software\\xam...', 61, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jurnal->get_jurnal()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2022-01-18 01:51:16 --> Undefined index: status
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Jurnal.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Software\\xam...', 61, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jurnal->get_jurnal()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2022-01-18 01:51:16 --> Undefined index: status
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Jurnal.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Software\\xam...', 61, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jurnal->get_jurnal()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2022-01-18 01:51:17 --> Undefined index: status
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Jurnal.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Software\\xam...', 61, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jurnal->get_jurnal()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2022-01-18 01:51:17 --> Undefined index: status
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Jurnal.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Software\\xam...', 61, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jurnal->get_jurnal()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2022-01-18 01:51:17 --> Undefined index: status
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Jurnal.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Software\\xam...', 61, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jurnal->get_jurnal()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2022-01-18 01:51:19 --> Undefined index: status
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Jurnal.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Software\\xam...', 61, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jurnal->get_jurnal()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+ERROR - 2022-01-18 01:54:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 9
+CRITICAL - 2022-01-18 01:54:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 9
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\r\n     ...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\r\n     ...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\r\n     ...')
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Jurnal.php(74): CodeIgniter\Database\BaseConnection->query('SELECT *\r\n     ...')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jurnal->get_jurnal()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+ERROR - 2022-01-18 01:54:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 9
+CRITICAL - 2022-01-18 01:54:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 9
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\r\n     ...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\r\n     ...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\r\n     ...')
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Jurnal.php(74): CodeIgniter\Database\BaseConnection->query('SELECT *\r\n     ...')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jurnal->get_jurnal()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurnal))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2022-01-18 22:51:52 --> syntax error, unexpected '('
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('pemakalah/get_p...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('pemakalah/get_p...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}

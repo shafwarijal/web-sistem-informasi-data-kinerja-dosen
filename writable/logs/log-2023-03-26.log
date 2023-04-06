@@ -1,0 +1,8 @@
+CRITICAL - 2023-03-26 00:09:08 --> Invalid body indentation level (expecting an indentation level of at least 12)
+#0 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('penelitian')
+#1 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\CodeIgniter.php(705): CodeIgniter\Router\Router->handle('penelitian')
+#2 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\ekinerja_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\ekinerja_dosen\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}

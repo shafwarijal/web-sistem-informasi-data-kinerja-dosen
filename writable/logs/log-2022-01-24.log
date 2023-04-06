@@ -1,0 +1,72 @@
+CRITICAL - 2022-01-24 10:42:59 --> Undefined variable: datahki
+#0 D:\Software\xampp\htdocs\skripsi\app\Views\Pages\User\u_hki\list_hki.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 5, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Software\\xam...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/user/u_hk...', Array, true)
+#4 D:\Software\xampp\htdocs\skripsi\app\Controllers\Hki.php(131): view('pages/user/u_hk...', Array)
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Hki->get_hki()
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hki))
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#10 {main}
+ERROR - 2022-01-24 11:20:43 --> Table 'kinerjadosen.bukuajar' doesn't exist
+CRITICAL - 2022-01-24 11:20:43 --> Table 'kinerjadosen.bukuajar' doesn't exist
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT bukuajar...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT bukuajar...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT bukuajar...')
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Buku_Ajar.php(72): CodeIgniter\Database\BaseConnection->query('SELECT bukuajar...')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Buku_Ajar->get_buku_ajar()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Ajar))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+ERROR - 2022-01-24 11:20:55 --> Table 'kinerjadosen.bukuajar' doesn't exist
+CRITICAL - 2022-01-24 11:20:55 --> Table 'kinerjadosen.bukuajar' doesn't exist
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT bukuajar...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT bukuajar...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT bukuajar...')
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Buku_Ajar.php(72): CodeIgniter\Database\BaseConnection->query('SELECT bukuajar...')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Buku_Ajar->get_buku_ajar()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Ajar))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+ERROR - 2022-01-24 11:22:05 --> Table 'kinerjadosen.bukuajar' doesn't exist
+CRITICAL - 2022-01-24 11:22:05 --> Table 'kinerjadosen.bukuajar' doesn't exist
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT bukuajar...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT bukuajar...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT bukuajar...')
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Buku_Ajar.php(72): CodeIgniter\Database\BaseConnection->query('SELECT bukuajar...')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Buku_Ajar->get_buku_ajar()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Ajar))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+ERROR - 2022-01-24 11:22:56 --> Table 'kinerjadosen.bukuajar' doesn't exist
+CRITICAL - 2022-01-24 11:22:56 --> Table 'kinerjadosen.bukuajar' doesn't exist
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT bukuajar...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT bukuajar...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT bukuajar...')
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Buku_Ajar.php(72): CodeIgniter\Database\BaseConnection->query('SELECT bukuajar...')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Buku_Ajar->get_buku_ajar()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Ajar))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+ERROR - 2022-01-24 11:25:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 9
+CRITICAL - 2022-01-24 11:25:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 9
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT count(*)...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Buku_Ajar.php(93): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Buku_Ajar->get_buku_ajar()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku_Ajar))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}

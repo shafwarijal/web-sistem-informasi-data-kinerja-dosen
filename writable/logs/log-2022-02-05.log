@@ -1,0 +1,12 @@
+CRITICAL - 2022-02-05 03:18:43 --> Undefined index: id_pemakalah
+#0 D:\Software\xampp\htdocs\skripsi\app\Views\Pages\User\u_dosen\detail_dosen.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Software\\xam...', 57, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Software\\xam...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/user/u_do...', Array, true)
+#4 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(297): view('pages/user/u_do...', Array)
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->detail_dosen('0000000006')
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#10 {main}

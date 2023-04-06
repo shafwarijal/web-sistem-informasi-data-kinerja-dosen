@@ -1,0 +1,273 @@
+ERROR - 2021-10-27 04:56:59 --> Duplicate entry '' for key 'PRIMARY'
+CRITICAL - 2021-10-27 04:56:59 --> Duplicate entry '' for key 'PRIMARY'
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(116): CodeIgniter\Model->insert(Array)
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#10 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#13 {main}
+ERROR - 2021-10-27 05:24:14 --> Duplicate entry '' for key 'PRIMARY'
+CRITICAL - 2021-10-27 05:24:14 --> Duplicate entry '' for key 'PRIMARY'
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(119): CodeIgniter\Model->insert(Array)
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#10 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#13 {main}
+CRITICAL - 2021-10-27 08:14:51 --> Invalid file: pages/admin/u_dosen/index.php
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/u_d...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/admin/u_d...', Array, true)
+#2 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(24): view('pages/admin/u_d...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->index()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#8 {main}
+CRITICAL - 2021-10-27 08:15:02 --> Invalid file: pages/admin/u_dosen/index.php
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/u_d...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/admin/u_d...', Array, true)
+#2 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(24): view('pages/admin/u_d...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->index()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#8 {main}
+CRITICAL - 2021-10-27 08:15:04 --> Invalid file: pages/admin/u_dosen/index.php
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/u_d...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/admin/u_d...', Array, true)
+#2 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(24): view('pages/admin/u_d...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->index()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#8 {main}
+CRITICAL - 2021-10-27 09:07:41 --> Undefined property: App\Controllers\Dosen::$ajax
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Software\\xam...', 137, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-10-27 09:07:44 --> Undefined property: App\Controllers\Dosen::$ajax
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Software\\xam...', 137, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-10-27 10:10:45 --> filteruser filter must have a matching alias defined.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Filters\Filters.php(476): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filteruser')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Filters\Filters.php(245): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Filters\Filters.php(159): CodeIgniter\Filters\Filters->initialize('dosen')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('dosen', 'before')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#7 {main}
+CRITICAL - 2021-10-27 10:10:46 --> filteruser filter must have a matching alias defined.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Filters\Filters.php(476): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filteruser')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Filters\Filters.php(245): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Filters\Filters.php(159): CodeIgniter\Filters\Filters->initialize('admin')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('admin', 'before')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#7 {main}
+CRITICAL - 2021-10-27 10:10:57 --> filteruser filter must have a matching alias defined.
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Filters\Filters.php(476): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filteruser')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Filters\Filters.php(245): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Filters\Filters.php(159): CodeIgniter\Filters\Filters->initialize('admin')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('admin', 'before')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#7 {main}
+CRITICAL - 2021-10-27 10:12:33 --> Class 'Config\FilterAuth' not found
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('admin', 'before')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#4 {main}
+CRITICAL - 2021-10-27 10:19:51 --> Undefined property: App\Controllers\Dosen::$ajax
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Software\\xam...', 137, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+ERROR - 2021-10-27 13:44:08 --> Duplicate entry '0000000001' for key 'PRIMARY'
+CRITICAL - 2021-10-27 13:44:08 --> Duplicate entry '0000000001' for key 'PRIMARY'
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(119): CodeIgniter\Model->insert(Array)
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#10 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#13 {main}
+ERROR - 2021-10-27 13:44:10 --> Duplicate entry '0000000001' for key 'PRIMARY'
+CRITICAL - 2021-10-27 13:44:10 --> Duplicate entry '0000000001' for key 'PRIMARY'
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(119): CodeIgniter\Model->insert(Array)
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#10 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#13 {main}
+ERROR - 2021-10-27 13:45:04 --> Duplicate entry '0000000001' for key 'PRIMARY'
+CRITICAL - 2021-10-27 13:45:04 --> Duplicate entry '0000000001' for key 'PRIMARY'
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(119): CodeIgniter\Model->insert(Array)
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#10 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#13 {main}
+ERROR - 2021-10-27 13:45:38 --> Duplicate entry '0000000001' for key 'PRIMARY'
+CRITICAL - 2021-10-27 13:45:38 --> Duplicate entry '0000000001' for key 'PRIMARY'
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(119): CodeIgniter\Model->insert(Array)
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#10 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#13 {main}
+CRITICAL - 2021-10-27 13:47:04 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('0000000001', NULL)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000001', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(67): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-10-27 13:47:13 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('0000000001', NULL)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000001', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(67): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-10-27 13:47:28 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('0000000001', NULL)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000001', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(67): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-10-27 13:47:38 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('0000000001', NULL)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000001', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(67): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-10-27 13:47:47 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('0000000006', NULL)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000000006', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(67): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-10-27 13:48:00 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('0000005006', NULL)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('nidn', 'nidn dosen', '0000005006', Array, Array)
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(67): CodeIgniter\Controller->validate(Array)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2021-10-27 15:42:52 --> Illegal string offset 'jekel'
+#0 D:\Software\xampp\htdocs\skripsi\app\Views\Pages\Admin\a_dosen\edit_dosen.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Software\\xam...', 56, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Software\\xam...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/admin/a_d...', Array, true)
+#4 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(152): view('pages/admin/a_d...', Array)
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#10 {main}
+CRITICAL - 2021-10-27 15:43:39 --> Illegal string offset 'jekel'
+#0 D:\Software\xampp\htdocs\skripsi\app\Views\Pages\Admin\a_dosen\edit_dosen.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Software\\xam...', 56, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Software\\xam...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/admin/a_d...', Array, true)
+#4 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(152): view('pages/admin/a_d...', Array)
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#10 {main}

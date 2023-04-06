@@ -1,0 +1,38 @@
+CRITICAL - 2022-08-09 20:18:12 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-09 20:18:34 --> require(vendor/autoload.php): failed to open stream: No such file or directory
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Export.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/...', 'D:\\Software\\xam...', 7, Array)
+#1 D:\Software\xampp\htdocs\skripsi\app\Controllers\Export.php(7): require()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Router\Router.php(491): include_once('D:\\Software\\xam...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('export')
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('export')
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#9 {main}
+CRITICAL - 2022-08-09 21:34:13 --> Undefined index: institusi_penyelanggara
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Export.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Software\\xam...', 172, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Export->laporan()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2022-08-09 21:35:16 --> Undefined index: tempat_pelaksaan
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Export.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Software\\xam...', 176, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Export->laporan()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2022-08-09 22:08:18 --> Undefined variable: pemakalah
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Export.php(317): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Software\\xam...', 317, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Export->laporan()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}

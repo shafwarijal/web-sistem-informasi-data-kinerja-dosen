@@ -1,0 +1,108 @@
+CRITICAL - 2021-11-21 19:49:19 --> Trying to access array offset on value of type null
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(190): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Software\\xam...', 190, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->get_dosen_edit()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+CRITICAL - 2021-11-21 20:42:21 --> Class 'App\Controllers\helper' not found
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Dosen->__construct()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-21 20:42:24 --> Class 'App\Controllers\helper' not found
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Dosen->__construct()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+CRITICAL - 2021-11-21 20:48:50 --> Undefined property: App\Controllers\Dosen::$anggota_penelitian
+#0 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Software\\xam...', 175, Array)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#6 {main}
+ERROR - 2021-11-21 20:50:50 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-11-21 20:50:50 --> Unknown column 'created_at' in 'field list'
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `an...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(177): CodeIgniter\Model->insert(Array)
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#10 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#13 {main}
+ERROR - 2021-11-21 20:52:14 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-11-21 20:52:14 --> Unknown column 'created_at' in 'field list'
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `an...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(177): CodeIgniter\Model->insert(Array)
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#10 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#13 {main}
+ERROR - 2021-11-21 20:54:09 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-11-21 20:54:09 --> Unknown column 'created_at' in 'field list'
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `an...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(177): CodeIgniter\Model->insert(Array)
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#10 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#13 {main}
+CRITICAL - 2021-11-21 21:00:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getInsertID()
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}
+ERROR - 2021-11-21 21:04:00 --> Cannot add or update a child row: a foreign key constraint fails (`kinerjadosen`.`anggota_penelitian`, CONSTRAINT `anggota_penelitian_ibfk_1` FOREIGN KEY (`id_penelitian`) REFERENCES `penelitian` (`id_penelitian`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2021-11-21 21:04:00 --> Cannot add or update a child row: a foreign key constraint fails (`kinerjadosen`.`anggota_penelitian`, CONSTRAINT `anggota_penelitian_ibfk_1` FOREIGN KEY (`id_penelitian`) REFERENCES `penelitian` (`id_penelitian`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `an...')
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Software\xampp\htdocs\skripsi\app\Controllers\Dosen.php(178): CodeIgniter\Model->insert(Array)
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#10 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#13 {main}
+CRITICAL - 2021-11-21 21:08:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertID()
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Dosen->save_data()
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Software\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Software\\xam...')
+#5 {main}

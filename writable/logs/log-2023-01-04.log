@@ -1,0 +1,13 @@
+CRITICAL - 2023-01-04 21:23:48 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\HTTP\CLIRequest.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'D:\\Software\\xam...', 175)
+#1 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\HTTP\CLIRequest.php(67): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Config\Services.php(123): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Config\Services.php(118): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(530): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(295): CodeIgniter\CodeIgniter->getRequestObject()
+#9 D:\Software\xampp\htdocs\skripsi\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#10 D:\Software\xampp\htdocs\skripsi\spark(63): CodeIgniter\CLI\Console->run()
+#11 {main}
